@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+
+    <h3>Universal Selector</h3>
+    <p>
+        * {
+        color: purple;
+    }
+    This would give all Elements on a page a Purple color
+    </p>
+
+    <h3>Type Selector</h3>
+    <p>
+        <div>
+            Hello, World
+        </div>
+        div {
+            color: white;
+        }
+        This would apply white to all div elements
+
+        The type can be of other elements, ex- headers, body, head, etc.
+    </p>
+
+    <h3>Class Selectors</h3>
+    <p>
+        Class Selectors select all elements in a given class. An <em>Attribute</em> placed on an HTML element
+
+        div class="alert-text"
+
+        .alert-text {
+            color: red;
+        }
+    </p>
+</body>
+</html>
