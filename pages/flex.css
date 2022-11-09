@@ -10,19 +10,19 @@
     flex: 1;
 }
 
-.flex-columns {
+.flex-growth{
     display: flex;gi
 }
 
     
-.flex-columns div {
+.flex-growth div {
     background-color: green;
     border: 4px solid brown;
     height: 100px;
     flex: 1 1 0%;
 }
 
-.flex-columns .two {
+.flex-growth .two {
     flex: 2 1 0%;
 } /* Flex Grow used above the .two specifying div with the class "two" only the center (2) grows */
 
