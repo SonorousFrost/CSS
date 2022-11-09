@@ -26,18 +26,18 @@
     flex: 2 1 0%;
 } /* Flex Grow used above the .two specifying div with the class "two" only the center (2) grows */
 
-.flex-lists{
+.flex-shrink{
     display: flex;
 }
 
-.flex-lists div {
+.flex-shrink div {
     background-color: red;
     border: 4px solid brown;
     height: 100px;
     flex: 1 1 auto;
 }
 
-.flex-lists .two {
+.flex-shrink .two {
     flex-shrink: 0; 
 }
 
@@ -46,9 +46,9 @@
       flex-direction: column;
 }
 
-.flex-columns {
+.flex-columns div {
     background-color: purple;
     border: 4px solid brown;
-    height: 100px;
+    height: 80px;
     flex: 1 1 auto;
 }
