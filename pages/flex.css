@@ -1,5 +1,5 @@
 .flex-container {
-    display: flex;gi
+    display: flex;
 }
 
 /* this selector selects all divs inside of .flex-container */
@@ -11,7 +11,7 @@
 }
 
 .flex-growth{
-    display: flex;gi
+    display: flex;
 }
 
     
@@ -27,7 +27,7 @@
 } /* Flex Grow used above the .two specifying div with the class "two" only the center (2) grows */
 
 .flex-lists{
-    display: flex;gi
+    display: flex;
 }
 
 .flex-lists div {
